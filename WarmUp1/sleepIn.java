@@ -9,9 +9,5 @@ sleepIn(false, true) → true
 
 public boolean sleepIn(boolean weekday, boolean vacation) 
 {
-  boolean sleepIn;
-  
-  sleepIn = !weekday || vacation ? true : false;
-  
-  return sleepIn;
+  return (!weekday || vacation);
 }
