@@ -12,7 +12,7 @@ public boolean startHi(String str)
   
   if(str.length() >= startWith.length())
   {
-    if(str.substring(0, start.length()).equals(startWith))
+    if(str.substring(0, startWith.length()).equals(startWith))
     {
       isMatch = true;
     }
