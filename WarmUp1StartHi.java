@@ -8,11 +8,11 @@ startHi("hello hi") → false
 public boolean startHi(String str) 
 {
   boolean isMatch = false;
-  String start = "hi";
+  String startWith = "hi";
   
-  if(str.length() >= start.length())
+  if(str.length() >= startWith.length())
   {
-    if(start.equals(str.substring(0, start.length())))
+    if(str.substring(0, start.length()).equals(startWith))
     {
       isMatch = true;
     }
