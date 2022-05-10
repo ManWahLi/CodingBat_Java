@@ -9,9 +9,5 @@ monkeyTrouble(true, false) → false
 
 public boolean monkeyTrouble(boolean aSmile, boolean bSmile) 
 {
-  boolean inTrouble;
-  
-  inTrouble = aSmile == bSmile ? true : false;
-  
-  return inTrouble;
+  return (aSmile == bSmile);
 }
