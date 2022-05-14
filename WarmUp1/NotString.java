@@ -10,17 +10,10 @@ notString("not bad") → "not bad"
 public String notString(String str) 
 {
   String beginsWith = "not";
-  String message = null;
+  String message;
   
-  if(str.length() >= beginsWith.length() &&
-     (str.substring(0, beginsWith.length()).equals(beginsWith)))
-  {
-    message = str;
-  }
-  else
-  {
-    message = beginsWith + " " + str;
-  }
-  
+  message = (str.length() >= beginsWith.length() &&
+            (str.substring(0, beginsWith.length()).equals(beginsWith))) ? str : beginsWith + " " + str
+ 
   return message;
 }
