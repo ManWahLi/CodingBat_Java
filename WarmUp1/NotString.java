@@ -13,7 +13,7 @@ public String notString(String str)
   String message;
   
   message = (str.length() >= beginsWith.length() &&
-            (str.substring(0, beginsWith.length()).equals(beginsWith))) ? str : beginsWith + " " + str
+            (str.substring(0, beginsWith.length()).equals(beginsWith))) ? str : beginsWith + " " + str;
  
   return message;
 }
