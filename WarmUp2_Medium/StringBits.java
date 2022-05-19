@@ -4,6 +4,8 @@ Given a string, return a new string made of every other char starting with the f
 stringBits("Hello") → "Hlo"
 stringBits("Hi") → "H"
 stringBits("Heeololeo") → "Hello"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String stringBits(String str) 
