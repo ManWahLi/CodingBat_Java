@@ -5,6 +5,8 @@ Given 3 int values, return true if 1 or more of them are teen.
 hasTeen(13, 20, 10) → true
 hasTeen(20, 19, 10) → true
 hasTeen(20, 10, 13) → true
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean hasTeen(int a, int b, it c) 
