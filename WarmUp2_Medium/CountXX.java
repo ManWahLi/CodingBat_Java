@@ -5,6 +5,8 @@ We'll say that overlapping is allowed, so "xxx" contains 2 "xx".
 countXX("abcxx") → 1
 countXX("xxx") → 2
 countXX("xxxx") → 3
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public int countXX(String str) 
