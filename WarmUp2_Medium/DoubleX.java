@@ -4,6 +4,8 @@ Given a string, return true if the first instance of "x" in the string is immedi
 doubleX("axxbb") → true
 doubleX("axaxax") → false
 doubleX("xxxxx") → true
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean doubleX(String str) 
