@@ -4,6 +4,8 @@ Given a string, return a new string where the first and last chars have been exc
 frontBack("code") → "eodc"
 frontBack("a") → "a"
 frontBack("ab") → "ba"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String frontBack(String str) 
