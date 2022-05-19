@@ -5,6 +5,8 @@ We are in trouble if they are both smiling or if neither of them is smiling. Ret
 monkeyTrouble(true, true) → true
 monkeyTrouble(false, false) → true
 monkeyTrouble(true, false) → false
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean monkeyTrouble(boolean aSmile, boolean bSmile) 
