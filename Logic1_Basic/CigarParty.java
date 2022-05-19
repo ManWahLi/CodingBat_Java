@@ -7,6 +7,8 @@ Return true if the party with the given values is successful, or false otherwise
 cigarParty(30, false) → false
 cigarParty(50, false) → true
 cigarParty(70, true) → true
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean cigarParty(int cigars, boolean isWeekend) 
