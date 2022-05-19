@@ -5,6 +5,8 @@ If the string length is less than 3, the front is whatever is there. Return a ne
 front3("Java") → "JavJavJav"
 front3("Chocolate") → "ChoChoCho"
 front3("abc") → "abcabcabc"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String front3(String str) 
