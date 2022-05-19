@@ -5,6 +5,8 @@ Otherwise, return the string unchanged.
 delDel("adelbc") → "abc"
 delDel("adelHello") → "aHello"
 delDel("adedbc") → "adedbc"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String delDel(String str) 
