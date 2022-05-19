@@ -5,6 +5,8 @@ However, if the string already begins with "not", return the string unchanged. N
 notString("candy") → "not candy"
 notString("x") → "not x"
 notString("not bad") → "not bad"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String notString(String str) 
