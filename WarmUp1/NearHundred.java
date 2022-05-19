@@ -4,6 +4,8 @@ Given an int n, return true if it is within 10 of 100 or 200. Note: Math.abs(num
 nearHundred(93) → true
 nearHundred(90) → true
 nearHundred(89) → false
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 public boolean nearHundred(int n) 
 {
