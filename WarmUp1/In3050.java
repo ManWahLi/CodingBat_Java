@@ -4,6 +4,8 @@ Given 2 int values, return true if they are both in the range 30..40 inclusive, 
 in3050(30, 31) → true
 in3050(30, 41) → false
 in3050(40, 50) → true
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean in3050(int a, int b) 
