@@ -5,6 +5,8 @@ Note that Math.abs(n) returns the absolute value of a number.
 close10(8, 13) → 8
 close10(13, 8) → 8
 close10(13, 7) → 0
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public int close10(int a, int b) 
