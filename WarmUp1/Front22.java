@@ -5,6 +5,8 @@ If the string length is less than 2, use whatever chars are there.
 front22("kitten") → "kikittenki"
 front22("Ha") → "HaHaHa"
 front22("abc") → "ababcab"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String front22(String str) 
