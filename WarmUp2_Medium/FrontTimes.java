@@ -5,6 +5,8 @@ Return n copies of the front;
 frontTimes("Chocolate", 2) → "ChoCho"
 frontTimes("Chocolate", 3) → "ChoChoCho"
 frontTimes("Abc", 3) → "AbcAbcAbc"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String frontTimes(String str, int n) 
