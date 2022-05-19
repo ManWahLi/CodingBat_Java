@@ -5,6 +5,8 @@ Except if the parameter "negative" is true, then return true only if both are ne
 posNeg(1, -1, false) → true
 posNeg(-1, 1, false) → true
 posNeg(-4, -5, true) → true
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean posNeg(int a, int b, boolean negative) 
