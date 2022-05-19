@@ -5,6 +5,8 @@ however include first char only if it is 'o' and include the second only if it i
 startOz("ozymandias") → "oz"
 startOz("bzoo") → "z"
 startOz("oxx") → "o"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String startOz(String str) 
