@@ -5,6 +5,8 @@ However, if one of the values is the same as another of the values, it does not 
 loneSum(1, 2, 3) → 6
 loneSum(3, 2, 3) → 2
 loneSum(3, 3, 3) → 0
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public int loneSum(int a, int b, int c) 
