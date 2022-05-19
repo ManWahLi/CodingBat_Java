@@ -4,6 +4,8 @@ Given an int n, return the absolute difference between n and 21, except return d
 diff21(19) → 2
 diff21(10) → 11
 diff21(21) → 0
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public int diff21(int n) 
