@@ -4,6 +4,8 @@ Given a string, return true if the string starts with "hi" and false otherwise.
 startHi("hi there") → true
 startHi("hi") → true
 startHi("hello hi") → false
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean startHi(String str) 
