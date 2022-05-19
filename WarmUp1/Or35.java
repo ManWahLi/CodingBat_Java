@@ -5,6 +5,8 @@ Use the % "mod" operator -- see Introduction to Mod
 or35(3) → true
 or35(10) → true
 or35(8) → false
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean or35(int n) 
