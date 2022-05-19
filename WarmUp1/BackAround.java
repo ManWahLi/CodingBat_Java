@@ -5,6 +5,8 @@ The original string will be length 1 or more.
 backAround("cat") → "tcatt"
 backAround("Hello") → "oHelloo"
 backAround("a") → "aaa"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String backAround(String str) 
