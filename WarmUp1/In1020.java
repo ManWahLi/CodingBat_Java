@@ -4,6 +4,8 @@ Given 2 int values, return true if either of them is in the range 10..20 inclusi
 in1020(12, 99) → true
 in1020(21, 12) → true
 in1020(8, 99) → false
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean in1020(int a, int b) 
