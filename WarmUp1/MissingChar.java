@@ -5,7 +5,10 @@ The value of n will be a valid index of a char in the original string (i.e. n wi
 missingChar("kitten", 1) → "ktten"
 missingChar("kitten", 0) → "itten"
 missingChar("kitten", 4) → "kittn"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
+
 public String missingChar(String str, int n) 
 {
   String newString;
