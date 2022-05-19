@@ -5,6 +5,8 @@ Note that the % "mod" operator computes remainders, so 17 % 10 is 7.
 lastDigit(7, 17) → true
 lastDigit(6, 17) → false
 lastDigit(3, 113) → true
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean lastDigit(int a, int b) 
