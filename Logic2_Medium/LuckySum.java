@@ -6,6 +6,8 @@ So for example, if b is 13, then both b and c do not count.
 luckySum(1, 2, 3) → 6
 luckySum(1, 2, 13) → 3
 luckySum(1, 13, 3) → 1
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public int luckySum(int a, int b, int c) 
