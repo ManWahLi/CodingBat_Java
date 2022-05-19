@@ -4,6 +4,8 @@ Given a string and a non-negative int n, return a larger string that is n copies
 stringTimes("Hi", 2) → "HiHi"
 stringTimes("Hi", 3) → "HiHiHi"
 stringTimes("Hi", 1) → "Hi"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String stringTimes(String str, int n) 
