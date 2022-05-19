@@ -4,6 +4,8 @@ Given a non-empty string like "Code" return a string like "CCoCodCode".
 stringSplosion("Code") → "CCoCodCode"
 stringSplosion("abc") → "aababc"
 stringSplosion("ab") → "aab"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String stringSplosion(String str) 
