@@ -5,6 +5,8 @@ If the string has less than 3 chars, uppercase whatever is there. Note that str.
 endUp("Hello") → "HeLLO"
 endUp("hi there") → "hi thERE"
 endUp("hi") → "HI"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String endUp(String str) 
