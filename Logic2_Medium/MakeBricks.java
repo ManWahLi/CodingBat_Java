@@ -8,6 +8,8 @@ See also: Introduction to MakeBricks
 makeBricks(3, 1, 8) → true
 makeBricks(3, 1, 9) → false
 makeBricks(3, 2, 10) → true
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public boolean makeBricks(int small, int big, int goal) 
