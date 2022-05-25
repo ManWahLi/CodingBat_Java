@@ -5,6 +5,8 @@ The "yak" strings will not overlap.
 stringYak("yakpak") → "pak"
 stringYak("pakyak") → "pak"
 stringYak("yak123ya") → "123ya"
+
+@author Man Wah Li [limanwah0924@gmail.com]
 */
 
 public String stringYak(String str) 
