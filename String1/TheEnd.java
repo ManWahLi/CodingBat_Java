@@ -13,9 +13,7 @@ public String theEnd(String str, boolean front)
 {
   String result = "";
   
-  result = front ? 
-           str.substring(0, 1) : 
-           str.substring(str.length() - 1, str.length());
+  result = front ? result + str.charAt(0) : result + str.charAt(str.length() - 1);
   
   return result;
 }
