@@ -13,8 +13,8 @@ public String twoChar(String str, int index)
 {
   String result = "";
   
-  result = index > str.length() - 2 || index < 0 ? 
-           str.substring(0, 2) : str.substring(index, index + 2);
+  result = index <= str.length() - 2 && index > 0 ? 
+           str.substring(index, index + 2) : str.substring(0, 2);
            
   return result;
 }
