@@ -13,13 +13,8 @@ public boolean hasBad(String str)
 {
   boolean hasBad = false;
   
-  if(str.length() >= 3)
-  {
-    for(int i = 0; i < 2 && i < str.length() - 2 && !hasBad; i++)
-    {
-      hasBad = str.substring(i, i + 3).equals("bad") ? true : false;
-    }
-  }
+  hasBad = str.length() >= 3 && str.substring(0, 3).equals("bad") ? true : hasBad;
+  hasBad = str.length() >= 4 && str.substring(1, 4).equals("bad") ? true : hasBad;
   
   return hasBad;
 }
