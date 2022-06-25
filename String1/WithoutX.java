@@ -10,16 +10,18 @@ withoutX("Hxix") → "Hxi"
 
 public String withoutX(String str) 
 {
-  String result = str;
+  String result = "";
+  int length = str.length();
   
-  if(str.length() > 0 && str.charAt(0) == 'x')
+  if(length > 0)
   {
-    result = str.substring(1);
+    result = str.charAt(0) == 'x' ? str.substring(1) : str;
   }
   
-  if(result.length() > 0 && result.charAt(result.length() - 1) == 'x')
+  if(length > 1)
   {
-    result = result.substring(0, result.length() - 1);
+    result = str.charAt(length - 1) == 'x' ?
+             result.substring(0, result.length() - 1) : result;
   }
   
   return result;
