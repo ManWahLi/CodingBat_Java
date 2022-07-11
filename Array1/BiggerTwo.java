@@ -12,7 +12,5 @@ biggerTwo([1, 1], [1, 2]) → [1, 2]
 
 public int[] biggerTwo(int[] a, int[] b) 
 {
-  int[] result = a[0] + a[1] >= b[0] + b[1] ? a : b;
-  
-  return result;
+  return a[0] + a[1] >= b[0] + b[1] ? a : b;
 }
